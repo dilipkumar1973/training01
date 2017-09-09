@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.context = getBaseContext();
         setContentView(R.layout.layout_1);
-
+        System.out.println("Just a msg");
     }
 
     public void onClick(View view){
